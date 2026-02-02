@@ -4,7 +4,7 @@ A simple, lightweight web-based **QR Code Generator** built using **HTML, CSS, a
 
 ---
 ## 🌐 Live Demo
-👉 https://marisugam69.github.io/QrGen/
+👉[ https://marisugam69.github.io/QrGen/](https://marisugam69.github.io/QrGen/)
 
 ## ✨ Features
 
