@@ -3,6 +3,8 @@
 A simple, lightweight web-based **QR Code Generator** built using **HTML, CSS, and JavaScript**. It allows users to generate QR codes from text or URLs, download them as images, and reset the app easily.
 
 ---
+## 🌐 Live Demo
+👉 https://marisugam69.github.io/QrGen/
 
 ## ✨ Features
 
