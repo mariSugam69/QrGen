@@ -3,8 +3,6 @@
 A simple, lightweight web-based **QR Code Generator** built using **HTML, CSS, and JavaScript**. It allows users to generate QR codes from text or URLs, download them as images, and reset the app easily.
 
 ---
-## 🌐 Live Demo
-👉[ https://marisugam69.github.io/QrGen/](https://marisugam69.github.io/QrGen/)
 
 ## ✨ Features
 
@@ -47,6 +45,45 @@ qr-code-generator/
 ## 🌐 Live Demo
 
 👉 **Live Website:** [https://marisugam69.github.io/QrGen/](https://marisugam69.github.io/QrGen/)
+
+---
+
+## ⚠️ Troubleshooting (If Output Is Not Showing)
+
+If the QR code output is **not visible on GitHub Pages**, check the following:
+
+1. **File placement**
+
+   * Ensure `index.html`, `style.css`, and `script.js` are in the **root of the repository** (same level as `README.md`).
+
+2. **GitHub Pages settings**
+
+   * Go to **Repository → Settings → Pages**
+   * Source: **Deploy from a branch**
+   * Branch: `main`
+   * Folder: `/ (root)`
+
+3. **Correct file names (case‑sensitive)**
+
+   * `index.html` (not `Index.html` or `home.html`)
+   * `script.js`
+   * `style.css`
+
+4. **Use relative paths in HTML**
+
+   ```html
+   <link rel="stylesheet" href="./style.css" />
+   <script src="./script.js"></script>
+   ```
+
+5. **Add `.nojekyll` (recommended)**
+
+   * Create an empty file named `.nojekyll` in the root to prevent GitHub Pages from interfering with static files.
+
+6. **Clear cache & wait**
+
+   * After pushing changes, wait 1–2 minutes
+   * Hard refresh the page: `Ctrl + Shift + R`
 
 ---
 
